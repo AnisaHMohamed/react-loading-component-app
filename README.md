@@ -1,6 +1,5 @@
-# react-express-boilerplate
-# react-express-boilerplate
-# React Express Starter Pack
+# react express app with loading animated loading components between calls
+
 
 > Create full stack apps with React and Express. Run your client and server with a single command. 
 
