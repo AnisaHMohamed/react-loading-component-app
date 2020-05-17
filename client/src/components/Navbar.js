@@ -1,19 +1,18 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
  const Navbar = () => {
-  const navStyle = {
-    color: "white"
-  };
+  
  
     return (
     <nav>
-      <Link style={navStyle} to="/">
-        <h3>Shero React Router BoilerPlate</h3>
+      <Link  to="/">
       </Link>
       <ul className="nav-Links">
-        <Link style={navStyle} to="/heroes">
+        <Link  to="/heroes">
           <li>SuperWomen</li>
         </Link>
-        <Link style={navStyle} to="/about">
+        <Link  to="/about">
           <li>About</li>
         </Link>
       </ul>

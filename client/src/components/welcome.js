@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "../../styles/welcome.css";
 
 const Welcome = () => {
   const [hobbies, setHobbies] = useState([]);
