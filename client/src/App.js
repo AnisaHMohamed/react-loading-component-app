@@ -1,18 +1,28 @@
 import React,{ Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Welcome from './components/welcomeMessage/welcome'
+import Navbar from './components/Navbar'
+import Welcome from './components/welcome'
 
 
 class App extends Component {
   render() {
       return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Welcome/>
-      </header>
-    </div>
+        <Router> 
+        <div className="App">
+          <Navbar />
+          <Switch>
+          <Route path="/" exact component={Home}/>
+          <Route path="/about" component={About}/>
+          <Route path="/heroes" exact component={Heroes}/>
+          <Route path="/heroes/:id"  component={Hero}/>  
+          </Switch>
+          <Welcome/>
+
+        
+        </div>
+      </Router>
+   
   );
 }
 }
