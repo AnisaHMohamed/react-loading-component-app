@@ -8,14 +8,12 @@ const Home = () => (
       width="300rem"
       height="300rem"
     ></img>
-    <h1>
-      Check out My LinkedIn and GitHub My name is Anisa Mohamed and I'm a Full
-      Stack Developer!
-      </h1>      
-      <h2> This is an app I built to implement a Loading animation
-      between API calls so my app can be UX friendly! Check me out on:
-      </h2>
-    <p>
+    <h1>Welcome to My React UI Animation App!!!!</h1>
+    <h2>A React - Express - Router App with Animation on API calls by Anisa Mohamed</h2>  
+      <p>
+      I make mini apps to practice my skillss</p>
+      <p>
+      Check me out on:
       {" "}
       <a href="https://www.linkedin.com/in/anisa-mohamed">LinkedIn!</a>{" "}
     </p>

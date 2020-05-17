@@ -12,12 +12,10 @@ const Welcome = () => {
       });
   }, []);
 
-  const name = "Anisa Mohamed";
 
   return (
     <div>
-      <h2>Welcome to your React App!!!!</h2>
-      <h4>A React - Express Starter Pack by {name}</h4>
+     
       <h3>Things I Love &#x1F60A;</h3>
 
       <ul>
