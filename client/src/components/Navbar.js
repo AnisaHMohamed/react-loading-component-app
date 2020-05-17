@@ -5,7 +5,7 @@ import React from 'react';
   };
  
     return (
-      <nav>
+    <nav>
       <Link style={navStyle} to="/">
         <h3>Shero React Router BoilerPlate</h3>
       </Link>
