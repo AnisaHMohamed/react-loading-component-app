@@ -12,6 +12,9 @@ import { Link } from "react-router-dom";
         <Link  to="/heroes">
           <li>SuperWomen</li>
         </Link>
+        <Link  to="/users">
+          <li>Users</li>
+        </Link>
         <Link  to="/about">
           <li>About</li>
         </Link>

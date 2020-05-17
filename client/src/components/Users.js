@@ -1,9 +1,16 @@
 import '../styles/Skeleton.css';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 
-import React from 'react';
 
-const Skeleton = (props) => {
-  const data = props.data
+const Users = () => {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    axios
+      .get('https://reqres.in/api/users?page=2')
+      .then((res) => setData(res.data.data));
+  }, []);
+
   return (
     <div className="App">
     <ul className="contentWrapper">
@@ -38,4 +45,4 @@ const Skeleton = (props) => {
   );
 };
 
-export default Skeleton;
+export default Users;
