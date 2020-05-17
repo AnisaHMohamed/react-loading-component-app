@@ -1,6 +1,10 @@
 import React,{ Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import About from "./components/About";
+import Heroes from "./components/Heroes";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Hero from "./components/Hero"
 import Navbar from './components/Navbar'
 import Welcome from './components/welcome'
 
